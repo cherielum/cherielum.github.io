@@ -40,7 +40,7 @@
     order: 4;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 }
 
 hr.mainbar{
@@ -121,16 +121,18 @@ hr.lastbar{
     }
 
 .projects{
-    /* border: 1px solid; */
-    /* padding: 2px; */
-    /* box-shadow: 2px 2px #d2cece; */
-    /* margin: 20px; */
+    border: 1px solid;
+    padding: 2px;
+    box-shadow: 2px 2px #454242;
+    margin: 20px;
 }
 
-/* div.projects {
+div.projects {
     background-color: #333;
+    border-radius: 25px;
     overflow: auto;
-    white-space: nowrap;
+    /* white-space: nowrap; */
+    margin: 10px;
 }
 
 div.projects {
