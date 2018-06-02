@@ -17,7 +17,6 @@
     /* width: 30px; */
     margin: 5px;
     line-height: 10px;
-
   }
 
 .box-2{
@@ -131,7 +130,7 @@ hr.lastbar{
 div.projects {
     background-color: #333;
     border-radius: 25px;
-    overflow: auto;
+    /* overflow: auto; */
     margin: 10px;
 }
 
