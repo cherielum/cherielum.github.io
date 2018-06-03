@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("div.icons").hover(function(){
+    $("div.icons img").hover(function(){
         $(this).css("background-color", "#02b3e4");
         }, function(){
         $(this).css("background-color", "white");
