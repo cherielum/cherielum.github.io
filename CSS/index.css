@@ -1,8 +1,8 @@
-*{
+* {
     font-family: 'Dosis', sans-serif;
 }
 
-.box-1{
+.box-1 {
     /* background-color: green; */
     flex:0;
     order:1;
@@ -19,31 +19,27 @@
     line-height: 10px;
 }
 
-.box-2{
+.box-2 {
     /* background-color: yellow; */
     flex:6;
     order:1;
     text-align: right;
 }
 
-.box-3{
+.box-3 {
     /* background-color: red; */
     flex:6;
     order: 3;
 }
 
-.box-4{
-    order: 0;
-}
-
-.box-5{
+.box-5 {
     order: 4;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-hr.mainbar{
+hr.mainbar {
     width: 100%;
     order: 5;
     height: 8px;
@@ -56,7 +52,7 @@ hr.mainbar{
     margin-bottom:5px;
 }
 
-hr.mainbar2{
+hr.mainbar2 {
     width: 30%;
     height: 2px;
     margin-left: auto;
@@ -68,7 +64,7 @@ hr.mainbar2{
     margin-bottom:5px;
 }
 
-hr.lastbar{
+hr.lastbar {
     width: 100%;
     height: 2px;
     margin-left: auto;
@@ -80,7 +76,7 @@ hr.lastbar{
     margin-bottom:5px;
 }
 
-.container-2{
+.container-2 {
     display:flex;
     /*
     justify-content:flex-start;
@@ -91,7 +87,7 @@ hr.lastbar{
     justify-content:space-between;
 }
 
-.container-2-box{
+.container-2-box {
     flex-basis: 30%;
 }
 
@@ -117,7 +113,7 @@ hr.lastbar{
     margin: -5px;
 }
 
-.projects{
+.projects {
     border: 1px solid;
     padding: 2px;
     box-shadow: 2px 2px #262424;
@@ -139,11 +135,11 @@ div.projects {
     text-decoration: none;
 }
 
-@media(min-width:400px){
+@media(min-width:400px) {
     .container-1{
         display:flex;
     }
-    .container-3{
+    .container-3 {
         display:flex;
     }
 }
