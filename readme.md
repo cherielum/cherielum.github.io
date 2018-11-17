@@ -13,5 +13,5 @@ Check out the cool projects that Cherie has created!
 
 ## Website
 
-View on the web at http://cherie1.surge.sh/index.html
+View on the web at https://cherielum.github.io/
 
